@@ -3,6 +3,11 @@ et en [Go][hp-golang] (*work in progress*)) d'un algorithme de recherche exhaust
 (avec optimisations) permettant de déterminer la solution minimale (c.-à-d. utilisant
 le minimum de déplacements) d'une grille de [Klotski][wk-klotski].
 
+Le résultat en sortie est un fichier SVG affichant la solution étape par étape,
+similaire à ce qui suit :
+
+![Solution étape par étape d'une grille de Klotski](c++/klotski_solution_expected.svg)
+
 ### Construire et exécuter l'implémentation en C++
 Aucune bibliothèque ni dépendance externe n'est requise, un compilateur C++ prenant
 en charge le standard C++20 suffira (notamment l'entête `<format>`).
