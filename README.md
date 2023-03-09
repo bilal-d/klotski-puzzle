@@ -24,6 +24,16 @@ visionneuse d'images ou un navigateur web.
 Sur d'autres plateformes, il suffira de compiler le fichier `c++/klotski_solver.cpp`
 pour construire le binaire à exécuter.
 
+### Exécuter l'implémentation en Python
+N'importe quel interpréteur Python v3 récent suffira, aucune dépendance externe.
+Testé avec Python 3.10.  Après avoir cloné le dépôt :
+```
+$ cd python/
+$ python3 klotski_solver.py
+```
+Cela génèrera un fichier `python/klotski_solution.svg`, pouvant être visionné avec une
+visionneuse d'images ou un navigateur web.
+
 ---
 
 __[EN] ●__ This repository contains three implementations (in C++20, Python (*work in progress*),
@@ -46,6 +56,16 @@ standard image viewer or web browser.
 
 On other platforms, simply compile `c++/klotski_solver.cpp` to generate an executable
 binary.
+
+### Run the Python implementation
+All that is needed is a modern Python v3 interpreter.  There are no external dependencies.
+Tested with Python 3.10.  After cloning the repository:
+```
+$ cd python/
+$ python3 klotski_solver.py
+```
+This will generate an SVG image in `python/klotski_solution.svg`, viewable using any
+standard image viewer or web browser.
 
 [hp-golang]: https://golang.org/
 [wk-klotski]: https://en.wikipedia.org/wiki/Klotski
