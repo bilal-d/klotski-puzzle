@@ -1,4 +1,4 @@
-__[FR] ●__ Ce dépôt contient trois implémentations (en C++20, en Python (*work in progress*)
+__[FR] ●__ Ce dépôt contient trois implémentations (en C++20, en Python
 et en [Go][hp-golang] (*work in progress*)) d'un algorithme de recherche exhaustive
 (avec optimisations) permettant de déterminer la solution minimale (c.-à-d. utilisant
 le minimum de déplacements) d'une grille de [Klotski][wk-klotski].
@@ -36,7 +36,7 @@ visionneuse d'images ou un navigateur web.
 
 ---
 
-__[EN] ●__ This repository contains three implementations (in C++20, Python (*work in progress*),
+__[EN] ●__ This repository contains three implementations (in C++20, Python,
 and [Go][hp-golang] (*work in progress*)) of an exhaustive search algorithm (with many optimizations)
 that finds the shortest solution (i.e. with the minimum amount of moves) of a [Klotski][wk-klotski] grid.
 
