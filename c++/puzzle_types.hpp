@@ -20,7 +20,8 @@ struct Vect2
     int x;
     int y;
 
-    auto operator<=>(Vect2 const&) const = default;
+    bool operator==(Vect2 const&) const = default;
+    bool operator!=(Vect2 const&) const = default;
 
     Vect2& operator+=(Vect2 const& other) {
         x += other.x;
